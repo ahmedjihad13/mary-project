@@ -21,8 +21,12 @@ a{
 
  /* hedaer Part css start here  */
 .headerPart{
-    padding: 20px;
-    
+    padding: 40px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:1
     
 }
 
@@ -34,6 +38,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .btn a{
     padding: 18px 35px;
@@ -56,17 +61,24 @@ a{
 .menubtnFlex{
     display: flex;
     gap: 51px;
+    align-items: center;
 }
 
  /* hedaer Part css End here  */
- 
 
+
+
+ 
+  /* banner Part Css start here */
+  
 .bannerPart{
-padding-top: 161px;
+padding-top: 240px;
 background-image: url(../images/banner1.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+position: relative;
+
 
 }
 .bannercontent h3{
@@ -96,5 +108,306 @@ background-position: center;
 }
 .bannerflex{
     display: flex;
-    gap: 165px;
+    gap: 250px;
+    align-items: center;
+    
 }
+.bannerbtn{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.bannerbtn{
+
+}
+.btn{
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #FD6E0A;
+    display: inline-block;
+    border-radius: 5px;
+    color: #FFFFFF;
+     font-family: "Poppins", sans-serif;
+     font-weight: 700px;
+     font-size: 20px;
+    border: 1px solid #FD6E0A;
+
+    
+}
+.btn .gap{
+    margin-right: 10px;
+}
+.btn:hover {
+    border: 1px solid #FD6E0A;
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    transition: .4S;
+}
+.bannerbtn .btn:hover i{
+     background-color: #FFFFFF;
+    color: #FD6E0A;
+    transition: .4S;
+}
+/* banner Part Css End here */
+
+/* About part css Start here */
+#aboutPart{
+    margin: 130px 0;
+
+    
+}
+.about{
+    padding: 131px 157px;
+    background-color: #FFF8F3;
+}
+.aboutContent{
+    text-align: center;
+}
+.aboutContent h2{
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #181818;
+margin-bottom: 30px;
+}
+.aboutContent p{
+    font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #757575;
+width: 790px;
+margin: 0 auto;
+}
+.aboutbio{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.aboutbio p{
+        font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #757575;
+text-align: center;
+}
+.aboutbio h5{
+        font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #474747;
+}
+
+/* About part css End here */
+
+
+/* <!-- What i do Css part Start Here --> */
+#whatido{
+    margin: 130px 0;
+}
+.DoOne{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.DoOne h2{
+margin-bottom: 30px;
+font-size: 35px;
+        font-family: "Poppins", sans-serif;
+font-weight: 700;
+}
+.DoOne p{
+font-size: 18px;
+     font-family: "Poppins", sans-serif;
+font-weight: 400;
+/* font-size: 20px; */
+/* line-height: 30px; */
+color: #757575;
+width: 909px;
+margin: 0 auto;
+}
+.cardsection{
+    display: flex;
+    gap: 24px;
+
+}
+
+.one{
+    /* height: 317px; */
+    padding: 33px;
+   border-radius: 15px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+}
+.one h4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+           font-family: "Open Sans", sans-serif;
+font-weight: 700;
+font-size: 20px;
+color: #181818;
+
+}
+.one p{
+
+     font-family: "Poppins", sans-serif;       
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #757575;
+width: 201px;
+
+}
+
+
+/* <!-- What i do Css part End Here --> */
+ 
+/* A summary css start here */
+
+
+.flex{
+    display: flex;
+    gap: 71px;
+}
+.flex hr {
+    color: #D1D1D1;
+}
+.flex .education h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.flex .education h4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.flex .education h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.flex .education p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    width: 498px;
+    color: #757575;
+}
+.resume h2{
+    text-align: center;
+    margin-bottom: 113px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+/* A summary css start here */
+
+
+/* footer part start here */
+
+
+ .footerpart{
+    background:#FFF8F3;
+    padding: 130px 0;
+}
+.footer{
+    display: flex;
+}
+.footer .left{
+    width: 50%;
+}
+.footer .left h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px; 
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer .left p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    width: 543px;
+    margin-bottom: 30px;
+}
+.socialicon{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.socialicon a i {
+    color: #FD6E0A;
+    font-size: 30px;
+}
+.footer .right{
+    width: 50%;
+}
+.footer .right h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* gap: 24px; */
+}
+.inputcommon{
+    display: block;
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    background: white;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    border-radius: 5px;
+}
+.footerbtn{
+    
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 39px;
+    padding-right: 39px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color:#FFFFFF ;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    display: inline-block;
+}
+.footerbtn:hover{
+    border: 1px solid #FD6E0A;
+    background: transparent;
+    color: #FD6E0A;
+    transition-duration: 0.5s;
+}
+/* footer part End here */
